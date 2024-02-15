@@ -65,7 +65,7 @@ if [ -z "$CILIUM_VERSION" ]; then
 fi
 CILIUM_ERSION=$(echo $CILIUM_VERSION | sed 's/v//g')
 
-if [ -f "${SNAP_COMMON}/plugins/cilium" ]
+if [ -f "${SNAP_COMMON}/plugins/cilium-cli" ]
 then
   echo "Cilium version $CILIUM_VERSION is already installed."
 else
