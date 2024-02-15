@@ -1,4 +1,4 @@
-trustly-microk8s-addons:
+microk8s-addons:
   description: "Custom microk8s addons for trustly."
   addons:
     - name: "cilium-cni"
