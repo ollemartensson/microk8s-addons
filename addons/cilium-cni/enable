@@ -111,6 +111,8 @@ else
       --set ipam.operator.clusterPoolIPv4PodCIDRList="${IPv4_CLUSTER_CIDR}" \
       --set nodePort.enabled=true \
       --set hubble.ui.enabled=true \
+      --set kubeProxyReplacement=true \
+      --set enable-l7-proxy=true \
       --set hubble.relay.enabled=true
   )
 
